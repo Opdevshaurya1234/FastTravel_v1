@@ -1,0 +1,15 @@
+name: Fast Travel v1
+author: Sachan3117
+api: 4.0.0
+version: 1.0.0
+main: FastTravel\Sachan3117\Main
+
+commands:
+  fasttravel:
+   description: "Open Fast Travel Menu"   
+   permission: ft.use.cmd
+
+permissions:
+  ft.use.cmd:
+   description: "Permission To Us FastTravel Menu"
+   default: true
