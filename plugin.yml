@@ -2,7 +2,7 @@ name: Fast Travel v1
 author: Sachan3117
 api: 4.0.0
 version: 1.0.0
-main: FastTravel\Sachan3117\Main
+main: FastTravel\Sachan3117\main
 
 commands:
   fasttravel:
