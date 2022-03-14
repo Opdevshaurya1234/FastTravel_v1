@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ItzSachan3117/FastTravel_v1
+build-by-default: true
+branches:
+- main
+projects:
+  FastTravel_v1:
+    path: ""
+...
+#command : /fasttravel
