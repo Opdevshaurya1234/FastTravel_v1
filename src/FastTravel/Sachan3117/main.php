@@ -14,7 +14,7 @@ use jojoe77777\FormAPI\SimpleForm;
 class Main extends PluginBase {
 
     public function onEnable(): void {
-        $this->getLogger()->info("Enabled By Sachan3117");
+        $this->getLogger()->info("Plugin Enabled!");
     }
     public function onDisable(): void {
         $this->getLogger()->info("Plugin Disabled!");
@@ -25,7 +25,7 @@ class Main extends PluginBase {
             if($sender instanceof Player){
                 $this->newSimpleForm($sender);
             } else {
-                $sender->sendMessage("Run Command In-game Only");
+                $sender->sendMessage("bruh Server can't open Forms reasson Machine's Can't handle a Form with Local Machine and supported forms UI System for Web");
             }
         }
 
@@ -71,13 +71,13 @@ class Main extends PluginBase {
         });
         $form->setTitle("§l§6Fast Travel Menu");
         $form->setContent("§6Press the button to Teleport", 0, );
-        $form->addButton("§l§3Hub\n§l§9»» §r§oTap to Teleport", 0, "textures/map/map_icons");
-        $form->addButton("§l§3Farm\n§l§9»» §r§oTap to Teleport", 0, "textures/items/wheat");
-        $form->addButton("§l§3Mine\n§l§9»» §r§oTap to Teleport", 0, "textures/blocks/stone");
-        $form->addButton("§l§3Forest\n§l§9»» §r§oTap to Teleport", 0, "textures/blocks/sapling_oak");
-        $form->addButton("§l§3Nether\n§l§9»» §r§oTap to Teleport", 0, "textures/blocks/netherrack");
-        $form->addButton("§l§3Spider Den\n§l§9»» §r§oTap to Teleport", 0, "textures/entity/spider");
-        $form->addButton("§l§3End \n§l§9»» §r§oTap to Teleport", 0, "textures/blocks/end_stone");
+        $form->addButton("§l§3Hub\n§l§9»» §r§oTap to Teleport", 0, "texture/ui/hub");
+        $form->addButton("§l§3Farm\n§l§9»» §r§oTap to Teleport", 0, "texture/ui/farm_map");
+        $form->addButton("§l§3Mine\n§l§9»» §r§oTap to Teleport", 0, "texture/ui/mine_map");
+        $form->addButton("§l§3Forest\n§l§9»» §r§oTap to Teleport", 0, "texture/ui/Forest_map");
+        $form->addButton("§l§3Nether\n§l§9»» §r§oTap to Teleport", 0, "texture/ui/unkown_map2");
+        $form->addButton("§l§3Spider Den\n§l§9»» §r§oTap to Teleport", 0, "texture/ui/den_map");
+        $form->addButton("§l§3End \n§l§9»» §r§oTap to Teleport", 0, "texture/ui/unkown_map");
         $form->sendToPlayer($player);
         return $form;
     }
